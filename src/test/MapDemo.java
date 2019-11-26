@@ -15,6 +15,8 @@ public class MapDemo {
 				map.put(str.charAt(i),1);
 			}else {
 				map.put(str.charAt(i),in=in+1);
+				System.out.println("MMMMMM");
+				
 			}
 		}
    System.out.println(map);
